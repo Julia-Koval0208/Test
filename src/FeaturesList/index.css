@@ -1,0 +1,57 @@
+.acticle_list {
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 59px;
+  column-gap: 84px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .list {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 30px;
+    column-gap: 20px;
+  }
+}
+
+.list_item {
+  display: grid;
+  row-gap: 20px;
+  column-gap: 16px;
+  align-items: stretch;
+}
+
+.title_list-item {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.title_item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.accent_number-item {
+  grid-column-start: 1;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #dc0306;
+}
+
+.item {
+  grid-column-start: 2;
+}
+
+
+

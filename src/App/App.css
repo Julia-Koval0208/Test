@@ -1,0 +1,44 @@
+.body {
+  font-family: "Gilroy";
+  color: #555555;
+  font-style: normal;
+  font-weight: 400;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 71px auto auto 10%;
+  background: linear-gradient(
+    to bottom,
+    #ffffff 50%,       
+    #EEF7FF 50%     
+  );
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: grid;
+  gap: 107px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 58px;
+}
+
+@media (max-width: 1200px) {
+  .main {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;   
+    row-gap: 30px;              
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;   
+    row-gap: 30px;              
+    column-gap: 20px;
+  }
+}
