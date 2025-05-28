@@ -1,0 +1,61 @@
+form {
+  position: fixed; /* фиксированное позиционирование по всему экрану */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.5); /* серый полупрозрачный фон */
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_content {
+  border: 2px solid #000;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 500px;
+  background-color: #fff;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.choice {
+  border-bottom: 1px solid #000;
+}
+
+.buttom_exit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  inline-size: 30px;
+  block-size: 30px;
+  inset-block-start: 15px;
+  inset-inline-end: 15px;
+}
+
+.button_submit-application {
+  border: 1px solid #000;
+  padding: 5px;
+  background: #dc0306;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.label_choice {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}

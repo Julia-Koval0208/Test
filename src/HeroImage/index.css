@@ -4,7 +4,7 @@
   block-size: 600px;
   grid-row: 1/3;
   position: relative;
-  background-image: url(../image/Rectangle.png);
+  /* background-image: url(../image/Rectangle.png); */
   background-size: cover;
   background-repeat: no-repeat;
 }
